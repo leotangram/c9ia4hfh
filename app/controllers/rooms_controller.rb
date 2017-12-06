@@ -28,6 +28,7 @@ class RoomsController < ApplicationController
   else
     render 'edit'
   end
+  end
     
   def destroy
    @room = Room.find(params[:id])
